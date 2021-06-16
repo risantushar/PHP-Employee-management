@@ -9,9 +9,9 @@ class database{
 
     protected function connect(){
         $this->host= 'localhost';
-        $this->dbusername= 'risantushar';
-        $this->dbpassword= 'risantushar#*';
-        $this->dbname= 'db_employee_management';
+        $this->dbusername= 'root';
+        $this->dbpassword= '';
+        $this->dbname= 'db_name';
 
         $con=new mysqli($this->host,$this->dbusername,$this->dbpassword,$this->dbname);
 
